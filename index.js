@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", (req, res) => {
-  res.send("Welcome to Amazon Scraper API");
+  res.send("Welcome to Amazon Scraper API, ask question here");
 });
 
 app.get("/products/:productId", async (req, res) => {
